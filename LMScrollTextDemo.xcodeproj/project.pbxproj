@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADB01CD1B9003F200235F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB01CC1B9003F200235F7E /* main.m */; };
+		DADB01D01B9003F200235F7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB01CF1B9003F200235F7E /* AppDelegate.m */; };
+		DADB01D31B9003F200235F7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB01D21B9003F200235F7E /* ViewController.m */; };
+		DADB01D61B9003F200235F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADB01D41B9003F200235F7E /* Main.storyboard */; };
+		DADB01D81B9003F200235F7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADB01D71B9003F200235F7E /* Images.xcassets */; };
+		DADB01DB1B9003F200235F7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADB01D91B9003F200235F7E /* LaunchScreen.xib */; };
+		DADB01E71B9003F200235F7E /* LMScrollTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB01E61B9003F200235F7E /* LMScrollTextDemoTests.m */; };
+		DADB01F21B90042400235F7E /* LMScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB01F11B90042400235F7E /* LMScrollTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADB01E11B9003F200235F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADB01BF1B9003F200235F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADB01C61B9003F200235F7E;
+			remoteInfo = LMScrollTextDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADB01C71B9003F200235F7E /* LMScrollTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMScrollTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB01CB1B9003F200235F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADB01CC1B9003F200235F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADB01CE1B9003F200235F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADB01CF1B9003F200235F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADB01D11B9003F200235F7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DADB01D21B9003F200235F7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DADB01D51B9003F200235F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADB01D71B9003F200235F7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADB01DA1B9003F200235F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DADB01E01B9003F200235F7E /* LMScrollTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMScrollTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB01E51B9003F200235F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADB01E61B9003F200235F7E /* LMScrollTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMScrollTextDemoTests.m; sourceTree = "<group>"; };
+		DADB01F01B90042400235F7E /* LMScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMScrollTextView.h; sourceTree = "<group>"; };
+		DADB01F11B90042400235F7E /* LMScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMScrollTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADB01C41B9003F200235F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB01DD1B9003F200235F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADB01BE1B9003F200235F7E = {
+			isa = PBXGroup;
+			children = (
+				DADB01C91B9003F200235F7E /* LMScrollTextDemo */,
+				DADB01E31B9003F200235F7E /* LMScrollTextDemoTests */,
+				DADB01C81B9003F200235F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADB01C81B9003F200235F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADB01C71B9003F200235F7E /* LMScrollTextDemo.app */,
+				DADB01E01B9003F200235F7E /* LMScrollTextDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADB01C91B9003F200235F7E /* LMScrollTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DADB01CE1B9003F200235F7E /* AppDelegate.h */,
+				DADB01CF1B9003F200235F7E /* AppDelegate.m */,
+				DADB01D11B9003F200235F7E /* ViewController.h */,
+				DADB01D21B9003F200235F7E /* ViewController.m */,
+				DADB01F01B90042400235F7E /* LMScrollTextView.h */,
+				DADB01F11B90042400235F7E /* LMScrollTextView.m */,
+				DADB01D41B9003F200235F7E /* Main.storyboard */,
+				DADB01D71B9003F200235F7E /* Images.xcassets */,
+				DADB01D91B9003F200235F7E /* LaunchScreen.xib */,
+				DADB01CA1B9003F200235F7E /* Supporting Files */,
+			);
+			path = LMScrollTextDemo;
+			sourceTree = "<group>";
+		};
+		DADB01CA1B9003F200235F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADB01CB1B9003F200235F7E /* Info.plist */,
+				DADB01CC1B9003F200235F7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADB01E31B9003F200235F7E /* LMScrollTextDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADB01E61B9003F200235F7E /* LMScrollTextDemoTests.m */,
+				DADB01E41B9003F200235F7E /* Supporting Files */,
+			);
+			path = LMScrollTextDemoTests;
+			sourceTree = "<group>";
+		};
+		DADB01E41B9003F200235F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADB01E51B9003F200235F7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADB01C61B9003F200235F7E /* LMScrollTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB01EA1B9003F200235F7E /* Build configuration list for PBXNativeTarget "LMScrollTextDemo" */;
+			buildPhases = (
+				DADB01C31B9003F200235F7E /* Sources */,
+				DADB01C41B9003F200235F7E /* Frameworks */,
+				DADB01C51B9003F200235F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMScrollTextDemo;
+			productName = LMScrollTextDemo;
+			productReference = DADB01C71B9003F200235F7E /* LMScrollTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADB01DF1B9003F200235F7E /* LMScrollTextDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADB01ED1B9003F200235F7E /* Build configuration list for PBXNativeTarget "LMScrollTextDemoTests" */;
+			buildPhases = (
+				DADB01DC1B9003F200235F7E /* Sources */,
+				DADB01DD1B9003F200235F7E /* Frameworks */,
+				DADB01DE1B9003F200235F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADB01E21B9003F200235F7E /* PBXTargetDependency */,
+			);
+			name = LMScrollTextDemoTests;
+			productName = LMScrollTextDemoTests;
+			productReference = DADB01E01B9003F200235F7E /* LMScrollTextDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADB01BF1B9003F200235F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = zero;
+				TargetAttributes = {
+					DADB01C61B9003F200235F7E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DADB01DF1B9003F200235F7E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DADB01C61B9003F200235F7E;
+					};
+				};
+			};
+			buildConfigurationList = DADB01C21B9003F200235F7E /* Build configuration list for PBXProject "LMScrollTextDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADB01BE1B9003F200235F7E;
+			productRefGroup = DADB01C81B9003F200235F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADB01C61B9003F200235F7E /* LMScrollTextDemo */,
+				DADB01DF1B9003F200235F7E /* LMScrollTextDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADB01C51B9003F200235F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB01D61B9003F200235F7E /* Main.storyboard in Resources */,
+				DADB01DB1B9003F200235F7E /* LaunchScreen.xib in Resources */,
+				DADB01D81B9003F200235F7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB01DE1B9003F200235F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADB01C31B9003F200235F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB01D31B9003F200235F7E /* ViewController.m in Sources */,
+				DADB01F21B90042400235F7E /* LMScrollTextView.m in Sources */,
+				DADB01D01B9003F200235F7E /* AppDelegate.m in Sources */,
+				DADB01CD1B9003F200235F7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB01DC1B9003F200235F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADB01E71B9003F200235F7E /* LMScrollTextDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADB01E21B9003F200235F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADB01C61B9003F200235F7E /* LMScrollTextDemo */;
+			targetProxy = DADB01E11B9003F200235F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADB01D41B9003F200235F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB01D51B9003F200235F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADB01D91B9003F200235F7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADB01DA1B9003F200235F7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADB01E81B9003F200235F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DADB01E91B9003F200235F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADB01EB1B9003F200235F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMScrollTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADB01EC1B9003F200235F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMScrollTextDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DADB01EE1B9003F200235F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMScrollTextDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMScrollTextDemo.app/LMScrollTextDemo";
+			};
+			name = Debug;
+		};
+		DADB01EF1B9003F200235F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMScrollTextDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMScrollTextDemo.app/LMScrollTextDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADB01C21B9003F200235F7E /* Build configuration list for PBXProject "LMScrollTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB01E81B9003F200235F7E /* Debug */,
+				DADB01E91B9003F200235F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADB01EA1B9003F200235F7E /* Build configuration list for PBXNativeTarget "LMScrollTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB01EB1B9003F200235F7E /* Debug */,
+				DADB01EC1B9003F200235F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DADB01ED1B9003F200235F7E /* Build configuration list for PBXNativeTarget "LMScrollTextDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADB01EE1B9003F200235F7E /* Debug */,
+				DADB01EF1B9003F200235F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADB01BF1B9003F200235F7E /* Project object */;
+}
